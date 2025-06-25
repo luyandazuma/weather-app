@@ -16,11 +16,12 @@ a {
   font-weight: bold;
 }
 
-.weather-app {
+.container {
   border: none;
   border-radius: 15px;
   background-color: #fff;
-  max-width: 650px;
+  max-width: 550px;
+  width: 100%;
   display: block;
   margin: 65px auto;
   padding: 30px;
