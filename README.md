@@ -5,8 +5,8 @@ Project Name: Weather-what-where App
 # Overview
 
 Weather-what-where is a simple, responsive web application that allows users to check
-real-time weather conditions for in city in the world. The app fetches data from a weather
-API and displays temperature, humidity, windspeed, weather conditions and a weather forecast.
+real-time weather conditions for any city in the world. The app fetches data from a weather
+API and displays temperature, humidity, wind speed, weather conditions and a weather forecast.
 
 # Tech Stack
 
@@ -31,3 +31,8 @@ Styled weather details based on the data using emojis.
 
 How to align the name of the city and temperature using CSS Flexbox and positioning.
 How to fetch and display real-time data from the weather API.
+
+# Live Demo
+
+Here's a live demo of the <a href="https://weatherwhatwhere.netlify.app/">
+weather-what-where app</a>hosted on Netlify.
