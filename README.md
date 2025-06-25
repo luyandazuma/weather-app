@@ -10,7 +10,7 @@ API and displays temperature, humidity, wind speed, weather conditions and a wea
 
 # Tech Stack
 
-HTML, CSS, JavaScript, and Weather API (shecodes.io Weather API).
+HTML, CSS, JavaScript, and Weather API (shecodes.io weather API).
 
 # Features
 
@@ -35,5 +35,3 @@ How to fetch and display real-time data from the weather API.
 
 Here's a live demo of the <a href="https://weatherwhatwhere.netlify.app/">
 weather-what-where app</a>hosted on Netlify.
-
-# Live Demo
