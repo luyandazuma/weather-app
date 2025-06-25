@@ -1,7 +1,33 @@
 # weather-app
 
-Project Name: Weather-App
+Project Name: Weather-what-where App
 
 # Overview
 
-A simple weather app that provides real-time data.
+Weather-what-where is a simple, responsive web application that allows users to check
+real-time weather conditions for in city in the world. The app fetches data from a weather
+API and displays temperature, humidity, windspeed, weather conditions and a weather forecast.
+
+# Tech Stack
+
+HTML, CSS, JavaScript, and Weather API (SheCodes.io Weather API).
+
+# Features
+
+Search weather by city name.
+Displays current time and day, real-time temperature, description, humidity and wind speed.
+Responsive layout.
+Clean and minimal user interface.
+
+# How I Built It
+
+Created the basic HTML structure and input form.
+Designed the layout using CSS Flexbox.
+Used JavaScript to handle search input, make API calls to fetch weather data, analyse and display
+weather details on the page.
+Styled weather details based on the data using emojis.
+
+# Challenges I Faced
+
+How to align the name of the city and temperature using CSS Flexbox and positioning.
+How to fetch and display real-time data from the weather API.
