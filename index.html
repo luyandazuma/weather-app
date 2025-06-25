@@ -3,11 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather-app</title>
+    <title>Weather App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Weather App</h1>
-    <script src="index.js"></script>
+    <div class="weather-app">
+      <header>
+        <form class="form-group" id="form-group">
+          <input
+            type="search"
+            class="search-box"
+            id="search-input"
+            placeholder="Enter a city.."
+            required
+          />
+          <input type="submit" class="search-button" value="Search" />
+        </form>
+      </header>
+
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 class="current-city" id="current-city">Johannesburg</h1>
+            <p class="current-details">
+              <span id="current-day-time">Saturday 12:45</span>, light breeze
+              <br />
+              Humidity: <strong>24%</strong>, Wind:
+              <strong>11 km/h</strong>
+            </p>
+          </div>
+          <div class="current-temperature">
+            <span class="current-temp-icon">☀️</span>
+            <span class="current-temp-value" id="current-temp-value">18</span>
+            <span class="current-temp-symbol">℃</span>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank">Luyanda Zuma</a> and is
+          <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify.</a>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
