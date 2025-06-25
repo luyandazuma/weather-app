@@ -16,7 +16,6 @@ HTML, CSS, JavaScript, and Weather API (SheCodes.io Weather API).
 
 Search weather by city name.
 Displays current time and day, real-time temperature, description, humidity and wind speed.
-Responsive layout.
 Clean and minimal user interface.
 
 # How I Built It
