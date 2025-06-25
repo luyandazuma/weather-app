@@ -34,4 +34,4 @@ How to fetch and display real-time data from the weather API.
 # Live Demo
 
 Here's a live demo of the <a href="https://weatherwhatwhere.netlify.app/">
-weather-what-where app</a>hosted on Netlify.
+weather-what-where app</a> hosted on Netlify.
